@@ -8,8 +8,8 @@ from modules.python_kursas import PythonKursas
 # Faile main.py inicijuoti PythonKursas objektą su norimomis savybėmis+
 # Paleisti abiejų objektų metodą destyti()+
 
-mano_objektas = Kursas("Java", "Gintautas", "6 mėnesiai")
-mano_objektas.destyti()
+zmogus1 = Kursas("Java", "Gintautas", "6 mėnesiai")
+zmogus1.destyti()
 print("------------------------------")
-kitas_objektas = PythonKursas("Python", "Donatas", "4 mėnesiai")
-kitas_objektas.destyti()
+zmogus2 = PythonKursas("Python", "Donatas", "4 mėnesiai")
+zmogus2.destyti()
